@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/home"
+        android:title="Home"
+        android:iconTint="@color/textColor"
+        android:iconTintMode="add"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/profile"
+        android:iconTint="@color/textColor"
+     android:icon="@drawable/users_svgrepo_com__1_"
+        android:title="Profile"
+
+        android:iconTintMode="add"
+
+
+        />
+    <item
+
+        android:id="@+id/articles"
+        android:title="Articles"
+
+android:icon="@drawable/article_headline_journal_svgrepo_com"
+        android:iconTint="@color/material_on_background_disabled"
+     />
+    <item
+
+
+   android:icon="@drawable/note_on_a_clipboard_svgrepo_com"
+        android:iconTintMode="add"
+        android:id="@+id/follow_list"
+        android:iconTint="@color/textColor"
+        android:title="Follow List"
+
+        />
+    <item
+
+        android:iconTintMode="add"
+        android:id="@+id/chat"
+        android:iconTint="@color/textColor"
+        android:title="Chat"
+        android:icon="@drawable/chat_round_line_svgrepo_com"
+
+        />
+
+</menu>
